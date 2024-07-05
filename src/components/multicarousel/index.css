@@ -1,0 +1,32 @@
+.client_bg {
+  background-color: black;
+}
+.logoclient {
+  padding: 135px;
+}
+
+.three-dimensional-box {
+  transform: rotateX(2deg) rotateY(35deg);
+  transform-style: preserve-3d;
+  transition: transform 0.5s ease;
+}
+
+.three-dimensional-box:hover {
+  transform: rotateX(0deg) rotateY(0deg);
+  transform-style: preserve-3d;
+  transition: transform 0.5s ease;
+}
+@media screen and (max-width: 768px) {
+  .logoclient {
+    text-align: center;
+  }
+  .client_bg {
+    height:37vh;
+  }
+}
+/* ipadpro */
+@media screen and (min-width: 991px) and (max-width: 1030px) {
+  .client_bg {
+    height: 27vh;
+  }
+}

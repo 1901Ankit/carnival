@@ -1,0 +1,144 @@
+.cd__main {
+  display: block !important;
+  background: #4ac29a;
+  background: -webkit-linear-gradient(to right, #bdfff3, #4ac29a);
+  background: linear-gradient(to right, #bdfff3, #4ac29a) !important;
+}
+
+.carousel {
+  padding: 20px;
+  perspective: 800px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.carousel > * {
+  flex: 0 0 auto;
+}
+
+.carousel figure {
+  margin: 0;
+  width: 40%;
+  transform-style: preserve-3d;
+  transition: transform 0.5s;
+}
+
+.carousel figure div {
+  width: 100% !important;
+  box-sizing: border-box;
+  padding: 0 50px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 690px;
+}
+
+.carousel figure div:not(:first-of-type) {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 9;
+}
+
+.carousel nav {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0 0;
+}
+
+.carousel nav button {
+  flex: 0 0 auto;
+  margin: 0 5px;
+  cursor: pointer;
+  color: #333;
+  background: none;
+  border: 1px solid;
+  letter-spacing: 1px;
+  padding: 5px 10px;
+}
+
+.overlaytext {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 9;
+  font-size: 30px;
+  background-color: rgb(42, 221, 221, 0.5);
+  color: black;
+}
+.prismpara {
+  font-family: poppins !important;
+  font-size: 13px;
+  text-align: justify;
+  color: white;
+  margin-top: 12px;
+}
+.productname {
+  color: #fff;
+  text-align: center;
+  font-size: 25px !important;
+  font-family: poppinsbold !important;
+}
+.prismknowmore {
+  color: #fff;
+  text-align: center;
+  font-size: 18px !important;
+  letter-spacing: 1px;
+  font-family: poppinsbold !important;
+  margin-top: 30px;
+}
+.btnbg {
+  background-color: #004743;
+  border-radius: 50%;
+  padding: 16px 7px;
+}
+.dosj {
+  display: none;
+}
+
+/* mobile */
+@media screen and (max-width: 768px) {
+  .carousel figure div {
+    height: 450px;
+  }
+  .carousel figure {
+    width: 100%;
+  }
+  .carousel {
+    display: none;
+  }
+  .productname {
+    padding: 5px;
+  }
+  .prismpara {
+    padding: 5px;
+  }
+  .prismknowmore {
+    padding: 1px;
+  }
+
+  .dosj {
+    display: block;
+  }
+}
+@media screen and (min-width: 1920px) and (min-height: 1080px) {
+  .carousel figure div {
+    height: 676px !important;
+  }
+}
+
+@media screen and (min-width: 991px) and (max-width: 1030px) {
+  .carousel figure div {
+    height: 444px;
+  }
+}
+
+@media screen and (min-width: 1366px) and (min-height: 1024px) {
+  .carousel figure div {
+    height: 556px;
+  }
+}

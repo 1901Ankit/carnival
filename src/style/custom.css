@@ -1,0 +1,51 @@
+.f-44 {
+  font-size: 44px;
+}
+.f-43 {
+  font-size: 43px;
+  line-height: 1.2;
+  font-weight: 400;
+  /* font-family: Litera EF Medium !important; */
+  font-family: Litera Regular;
+}
+.f-48 {
+  font-size: 63px;
+  font-weight: 400;
+}
+.f-50 {
+  background: white;
+  width: 92%;
+  font-size: 85px;
+  font-weight: 400;
+}
+.f-51 {
+  background: white;
+  width: 75%;
+  font-size: 100px;
+  font-weight: 400;
+}
+.f-30 {
+  font-size: 30px;
+}
+/* .ms{
+  margin-left: 6rem;
+} */
+.scroll_up {
+  color: white;
+  border-radius: 50%;
+  background-color: black;
+  position: fixed;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+  bottom: 50px;
+  cursor: pointer;
+}
+
+::-webkit-scrollbar{
+  display: none;
+}

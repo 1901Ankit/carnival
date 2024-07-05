@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* 
+html{
+  scroll-behavior: smooth;
+} */
+
+h1 {
+  font-family: Sulferpoint !important;
+  line-height: 1 !important;
+}
+p {
+  font-family: poppins !important;
+  font-size: 16px;
+  text-align: justify;
+  line-height: 1.6 !important;
+  font-weight: 400;
+}
+h2 {
+  font-family: Sulferpoint !important;
+  font-size: 31px !important;
+}
+
+@font-face {
+  font-family: "poppins";
+  src: url("../public/fonts/Poppins-Medium.ttf");
+
+  font-style: normal;
+}
+@font-face {
+  font-family: "poppinsreg";
+  src: url("../public/fonts/Poppins-Regular.ttf");
+
+  font-style: normal;
+}
+@font-face {
+  font-family: "poppinslight";
+  src: url("../public/fonts/Poppins-Light.ttf");
+
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "poppinsbold";
+  src: url("../public/fonts/Poppins-Bold.ttf");
+
+  font-style: normal;
+}
+@font-face {
+  font-family: "Sulferpoint";
+  src: url("../public/fonts/SulphurPoint-Regular.ttf");
+  font-style: normal;
+}
+@font-face {
+  font-family: "Sulferpointh2";
+  src: url("../public/fonts/SulphurPoint-Bold.ttf");
+  font-style: normal;
+}
